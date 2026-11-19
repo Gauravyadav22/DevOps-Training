@@ -1,0 +1,20 @@
+name: Welcome to Git Actions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  job-name-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Message
+        run: echo "Welcome to the Git Actions"
+
+      - name: show Current Directory
+        run: pwd
+
+      - name: show files
+        run: ls -la
