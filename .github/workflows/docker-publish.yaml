@@ -24,4 +24,4 @@ jobs:
           
       - name: push docker image
         run: |
-          docker push ${{secrets.DOCKERHUB_USERNAME}}/vi-docker-action:1.21
+          docker push ${{secrets.DOCKERHUB_USERNAME}}/ici-action:1.21
